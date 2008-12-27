@@ -161,7 +161,7 @@ def index(directory,trim,excludedirs,excludefiles):
 
 def getHostList():
 #   stub to get things going
-    tmphostkey = 'AAAAB3NzaC1yc2EAAAABIwAAAQEA1w2OzgT4xWLznOoQzzC/ByQfzE35pa5zRwLFCDW0bn87drGV1bjX+UtPT22fPa4iRDmJ8n6f0v3ppt6pYZdhfceG//erXunAK1ijSRu6BEa02nD2/ZIOOwa6AidXpnBSZ1zBKR4BetuQ5a5khcuIWwUT4zD5FGOwwpUb3G2+pVNsABKnbtMxLGkMIvofkmR8ARpl++3OnT3OXZb1iLvXV7vEM5IFQ53AYOdZ1wgEDs8/1yYP+vU+fILJgphEFppd2YMGUPOC1sz7FWBF2ys6ViY5et18KUt0ZqTamQRkCoqRjUb7b1ibD1qwNt7+3dtedthW61k8C0Zyky8JwGDM+Q=='
+    tmphostkey = ''
     tmpclientkey = ''
     hostlist = [('faraday.acis.ufl.edu',tmphostkey,tmpclientkey)]
     return hostlist
