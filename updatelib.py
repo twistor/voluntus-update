@@ -65,7 +65,7 @@ def connectToHost(hostname,hostkey,clientkey):
 #    ckey = not sure how to get this yet
     client.get_host_keys().add(hostname, 'ssh-rsa', hkey)
     try:
-        client.connect("faraday.acis.ufl.edu", username="sysadmin", port=13833)
+        client.connect("", username="sysadmin", port=13833)
         return client
     except paramiko.SSHException, error:
         print error
@@ -163,7 +163,7 @@ def getHostList():
 #   stub to get things going
     tmphostkey = ''
     tmpclientkey = ''
-    hostlist = [('faraday.acis.ufl.edu',tmphostkey,tmpclientkey)]
+    hostlist = [('',tmphostkey,tmpclientkey)]
     return hostlist
 
 def optionsParserForUpdateManager():
